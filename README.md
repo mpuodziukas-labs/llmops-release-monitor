@@ -53,3 +53,5 @@ The traffic is synthetic. Latency, tokens, prices and quality labels come from s
 - Canary runs once on a fixed sample. There is no staged ramp, no sequential test and no confidence interval on the SLO checks.
 - Drift covers one score distribution and one binary judge. Input drift, multi-class labels and multiple judges are not covered.
 - Cost uses a flat synthetic price per token.
+
+Agent verification contract: [AGENTS.md](AGENTS.md)

@@ -1,0 +1,11 @@
+{
+  "expected_exit": 0,
+  "expected_line": "6/6 planted failures caught, 4/4 controls passed",
+  "limitations": "Thresholds are illustrative and need your own baselines. The hash chain cannot show that the newest log entries were cut off. Canary runs once on a fixed sample with no staged ramp. Drift covers one score distribution and one binary judge. Cost uses a flat synthetic price.",
+  "outcome": "release safety for LLM changes: eval-gated promotion, canary rollback, drift and cost monitoring, and a tamper-evident audit log",
+  "repo": "llmops-release-monitor",
+  "schema": "proof-pack/1",
+  "scope": "synthetic data, fixed seed, offline",
+  "site": "https://puodziukas.dev/proof.json",
+  "verify_cmd": "python3 evaluate.py"
+}
